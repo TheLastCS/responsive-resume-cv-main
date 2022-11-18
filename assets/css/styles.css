@@ -191,7 +191,9 @@ img{
 }
 
 /* Show menu */
-
+.show-menu{
+  bottom: var(--header-height);
+}
 
 /* Active menu link */
 

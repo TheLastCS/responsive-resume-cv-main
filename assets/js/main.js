@@ -1,23 +1,18 @@
 /*==================== SHOW MENU ====================*/
-const navMenu = document.getElementById('nav-menu'),
-      navToggle = document.getElementById('nav-toggle'),
-      navClose = document.getElementById('nav-close')
+const showMenu = (toggleId, navId) => {
+    const toggle = document.getElementById(toggleId),
+          nav = document.getElementById(navId)
 
-/*===== MENU SHOW =====*/
-/* Validate if constant exists */
-if(navToggle){
-    navToggle.addEventListener('click', () =>{
-        navMenu.classList.add('show-menu')
-    })
+    // Validate Variables
+    if(toggle && nav) {
+        toggle.addEventListener('click', () => {
+            // Add Show Menu Class to the Div Tag
+            nav.classList.toggle('show-menu')
+        })
+    }
 }
 
-/*===== MENU HIDDEN =====*/
-/* Validate if constant exists */
-if(navClose){
-    navClose.addEventListener('click', () =>{
-        navMenu.classList.remove('show-menu')
-    })
-}
+showMenu('nav-toggle', 'nav-menu')
 
 /*==================== REMOVE MENU MOBILE ====================*/
 
