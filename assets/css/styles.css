@@ -373,7 +373,10 @@ img{
 }
 
 /*========== CERTIFICATES ==========*/
-
+.certificate__title{
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-1);
+}
 
 /*========== REFERENCES ==========*/
 
