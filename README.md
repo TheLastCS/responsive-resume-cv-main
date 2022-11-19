@@ -1,4 +1,4 @@
-# Responsive Resume Cv Smith
+# Responsive Resume CV
 Beautiful Responsive resume cv website 📄 using html, css and javascript. Light dark mode 🌗 and PDF export.
 
 ![Resume cv](/preview.png)
